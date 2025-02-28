@@ -1,0 +1,10 @@
+create table donor (dno int primary key,
+ donor_name varchar(20),
+blood_group varchar(20),
+last_date date);
+
+insert into donor value(101,'aaryan','a+',22-5-2019);
+insert into donor value(101,'shree','b+',12-10-2010);
+insert into donor value(101,'shrdha','0+',2-8-2016);
+
+select * from donor;

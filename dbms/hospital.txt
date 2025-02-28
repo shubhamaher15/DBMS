@@ -1,0 +1,9 @@
+create table Hospital(hno int primary key,
+hname varchar(20),
+hcity varchar(20));
+
+insert into hospital value(100,'sai siddhi','pune');
+insert into hospital value(101,'nobel','anagar');
+insert into hospital value(102,'shree','pune');
+
+select * from Hospital;

@@ -1,0 +1,9 @@
+create table Actor( actor_id int primary key,
+ Actor_name varchar(20),
+ birth_date date );
+
+insert into actor values(44,'vijay',23-9-1990);
+insert into actor values(34,'rasmika',15-5-1998);
+insert into actor values(54,'rashi',20-3-1992);
+
+select * from Actor;

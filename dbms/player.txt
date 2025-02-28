@@ -1,0 +1,12 @@
+create table player(pno int primary key , 
+pname varchar(20),
+Birth_date  date,
+Birth_place  varchar(20), 
+game_name varchar(20));
+
+insert into player value(1,'jay', '23-jan-1990','pune','cricket');
+insert into player value(2,'virat', '10-oct-1987','dhule','cricket');
+insert into player value(3,'sachin', '24-nov-1969','mumbaii','cricket');
+
+
+select * from player;

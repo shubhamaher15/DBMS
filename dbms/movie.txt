@@ -1,0 +1,10 @@
+create table Movie(movie-no int primary key,
+name varchar(20),
+ release-year int);
+
+insert into movie value(22,'chava',2025);
+insert into movie value(12,'rayan',2024);
+insert into movie value(32,'ved',2023);
+
+select * from Movie;
+ 

@@ -1,0 +1,10 @@
+create table project(project_id int primary key ,
+project_name varchar(20),
+ project_description varchar(20),
+status varchar(20));
+
+insert into project value(11,'mobile shop','online shop', 'mobile');
+insert into project value(12,'sof dev','software', 'sof');
+insert into project value(13,'app dev','app', 'app dev');
+
+select * from project;

@@ -1,0 +1,10 @@
+create table college(College_Code int primary key,
+College_Name varchar(20),
+Address varchar(20),
+Establish_year int);
+
+insert into college value(1010,'cdj','shrirampur',1998);
+insert into college value(2010,'rbnb','shrirampur',1998);
+insert into college value(3010,'pvp','loni',1985);
+
+select * from college;

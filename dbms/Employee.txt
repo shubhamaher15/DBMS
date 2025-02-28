@@ -1,0 +1,10 @@
+create table employee(eno int primary key,
+ ename varchar(20),
+ company_name varchar(20),\
+salary, float);
+
+insert into employee value(1,'ram','shree',58457.33);
+insert into employee value(2,'sham','sai siddhi',86457.33);
+insert into employee value(3,'ram','bsl',95457.33);
+
+select * from employee;

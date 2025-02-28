@@ -1,0 +1,12 @@
+create class student (rollno int primary key,
+sname varchar(20),
+class varchar(20),
+per float,
+birth_date date ));
+
+insert into student value(1,'om','fy bca', 76, '23-jan-2026');
+insert into student value(2,'saii','sy bca', 85, '20-feb-2000');
+insert into student value(3,'ram','ty bca', 90, '13-oct-2018');
+
+
+select * from student;
